@@ -1,0 +1,70 @@
+
+<%- include("partials/header"); -%>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<form class="" action="/help" method="post">
+
+<div class="text-center mb-4"><br>
+  <img class="mb-4 circular" src="images/logo.png" alt="" width="72" height="72">
+    </div>
+    <h2 class="section-heading h1 pt-4">Contact us</h2>
+    <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        matter of hours to help you.</p>
+    <div class="row">
+        <div class="col-md-8 col-xl-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <input type="text"  name="name" class="form-control">
+                            <label  class="">Your name</label>
+                        </div>
+                    </div>
+                      <div class="col-md-6">
+                        <div class="md-form">
+                            <input type="email"  name="email" class="form-control">
+                            <label  class="">Your email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <input type="text"  name="subject" class="form-control">
+                            <label  class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label >Your message</label>
+                        </div>
+                    </div>
+                </div>
+            <div class="etc-login-form">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+            <div class="status"></div>
+        </div>
+        <div class="col-md-4 col-xl-3">
+            <ul class="contact-icons">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>22 Ondo Street Ebute West Lagos,  NIGERIA</p>
+                </li>
+                <li><i class="fa fa-phone fa-2x"aria-hidden="true"></i>
+                    <p class="fa fa-phone fa-2x"aria-hidden="true">+ 234 806 274 0574 </p>
+                </li>
+
+                <li><i class="fa fa-envelope fa-2x"></i>
+                    <p class="fa fa-envelope fa-2x">RubbyShopping@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</form>
